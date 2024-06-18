@@ -15,7 +15,6 @@ import {
 } from "@mui/material";
 import { useParams } from "react-router-dom";
 import { useCart } from "../context/CartContext";
-import { Link } from "react-router-dom";
 
 const ProductPage = () => {
   const { id } = useParams();
