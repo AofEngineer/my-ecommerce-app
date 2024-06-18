@@ -180,9 +180,6 @@ const ProductPage = () => {
                 <Button variant="contained" onClick={addToCart}>
                   Add to Cart
                 </Button>
-                <Button color="inherit" component={Link} to="/cart">
-                  Cart
-                </Button>
               </Box>
             </Box>
           </Grid>
